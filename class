@@ -1,0 +1,25 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class zebi {String[] args) {
+    System.out.println("Entrez votre texte ici");
+    Scanner recuperation = new Scanner(System.in);
+    int n = recuperation.nextInt();
+
+
+    double a ;
+    int test=1;
+
+    while (test==1){
+        test=0;
+        for (int k=0; k<n-1; ++k){
+            if (t[k+1]<[k]){
+                test=1;
+                a=t[k];
+                t[k]=t[k+1];
+                t[k+1]=a;
+            }
+        }
+    }
+}
